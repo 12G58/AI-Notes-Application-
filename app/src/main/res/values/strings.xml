@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Illuminote</string>
+    <string name="add_note">add_note</string>
+    <string name="enter_the_title">Enter the title</string>
+    <string name="enter_the_description">Enter the description</string>
+    <string name="todo">TODO</string>
+    <string name="notes">Notes</string>
+    <string name="title">title</string>
+    <string name="content">Content</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="add_image">add image</string>
+    <string name="item_label">Items</string>
+    <string name="illuminote">Illuminote</string>
+    <string name="enter_your_notes_here">Enter your notes here</string>
+    <string name="Untitled">Untitled</string>
+    <string name="add_a_source">Add a source</string>
+    <string name="open">open</string>
+    <string name="close">close\n</string>
+    <string name="home">home</string>
+    <string name="add_doc">add doc</string>
+    <string name="untitled">Untitled</string>
+    <string name="Select_Image">select_image\n</string>
+</resources>

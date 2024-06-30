@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateNoteActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:padding="16dp"
+        android:layout_marginTop="30dp"
+        >
+        <ImageView
+            android:id="@+id/updateSaveButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/baseline_arrow_back_24"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/untitled"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/updateSaveButton"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/updatePanelButton2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/baseline_hexagon_24"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"/>
+
+        <ImageView
+            android:id="@+id/updatePanelButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/light_down_with_feather_pen_svgrepo_com"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/updateTitleEditText"
+        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/enter_the_title"
+        android:padding="12dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="95dp"/>
+
+    <EditText
+        android:id="@+id/updateContentEditText"
+        android:layout_height="match_parent"
+        android:layout_width="380dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/enter_the_description"
+        android:padding="12dp"
+        android:layout_below="@id/updateTitleEditText"
+        android:layout_marginTop="4dp"
+        android:gravity="top"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
