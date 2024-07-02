@@ -77,7 +77,7 @@ class NewNoteActivity : AppCompatActivity() {
         val body = RequestBody.create("application/json; charset=utf-8".toMediaType(), json.toString())
 
         val request = Request.Builder()
-            .url("http://192.168.1.19:5000/") // Use 10.0.2.2 for emulator, or your local machine's IP for physical device
+            .url("http://192.xxx.xx.xxx:5000/") 
             .get()
             .build()
 
