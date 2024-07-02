@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 
 API_URL = "https://api-inference.huggingface.co/models/google/gemma-7b" #replace with a good fine-tuned LLM for Science/Math/Bio etc.
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer hf_token"}
 
 
 def query(payload):
