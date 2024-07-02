@@ -58,7 +58,7 @@ def summarize():
 
 
 if __name__ == '__main__':
-    app.run(host='192.168.1.19', debug=True)
+    app.run(host='192.xxx.xx.xxx', debug=True)
 
 # output = query({
 #     "inputs": "Can you please let us know more details about your ",
